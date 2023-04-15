@@ -1,0 +1,35 @@
+
+
+.card p{
+    font-size: small;
+    font-weight: 800;
+}
+
+.item1 { grid-area: first; }
+.item2 { grid-area: second; }
+.item3 { grid-area: third; }
+.item4 { grid-area: fourth; }
+.item5 { grid-area: fifth; }
+
+.grid-container{
+    grid-template-areas: 
+    'first first second second third third'
+    '. fourth fourth fifth fifth .'
+    ;
+}
+body{
+    background-color: rgb(3, 3, 45);
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.btn{
+    background-color: orange;
+}
+.btn2{
+    background-color: orange;
+}
+
+/* .card div{
+    text-align: center;
+    background-color: rgba(70, 7, 113, 0.473);
+   
+} */
